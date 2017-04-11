@@ -27,5 +27,6 @@ dinner_invites.sort(reverse=True)
 print(dinner_invites)
 dinner_invites.reverse()
 print(dinner_invites)
+print(dinner_invites)
 
 	
