@@ -10,14 +10,14 @@ print(odd_numbers)
 # Multiple of 3 from 3 to 30
 multi_3_numbers = []
 for number in range(3,31,3):
-	multi_3_numbers.append(number)
+    multi_3_numbers.append(number)
 print(multi_3_numbers)
 # First 10 cubes
 cubes = []
 for number in range(1,11):
-	cubes.append(number**3)
+    cubes.append(number**3)
 for number in cubes:
-	print(number)
+    print(number)
 # List comprehension
 cubes = []
 cubes = [value**3 for value in range(1,11)]
@@ -31,7 +31,7 @@ print(cubes[-3:])
 # Make tuple from list
 li=[1,2,'here is my name','lee zhao']
 tup = tuple(li)
-print(tup)
+print(tup)    
 
 
 
